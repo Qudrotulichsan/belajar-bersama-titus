@@ -302,6 +302,38 @@
 //   console.log(balikKata('Hello World and Coders')); // sredoC dna dlroW olleH
  
 
+// exercise 13
+//   function xo(str) {
+//     let ngitungx = 0;
+//     let ngitungo = 0;
+
+//     for(let i=0; i <= str.length; i++){       
+//         if(str[i] == 'x'){
+//             ngitungx++;
+//         }else if(str[i] == 'o'){
+//             ngitungo++;
+//         }
+        
+//         }
+//         // console.log(ngitungx, ngitungo)
+  
+//         if (ngitungx == ngitungo){
+//             console.log('true')
+//         } else {
+//             console.log('false')
+//         }
+//         return str
+//     }
+
+    
+//   // TEST CASES
+//   console.log(xo('xoxoxo')); // true
+//   console.log(xo('oxooxo')); // false
+//   console.log(xo('oxo')); // false
+//   console.log(xo('xxxooo')); // true
+//   console.log(xo('xoxooxxo')); // truef
+
+
 // exercise 2 w3
 
 // Mengakses Nilai Dalam Array
@@ -343,6 +375,56 @@
 // console.log(dataHandling(arr));
 //cek
 
+// exercise 4 w3
+
+// function dataHandling2(arr){
+
+// }
+
+// var arr = ["0001", "Roman Alamsyah", "Bandar Lampung", "21 05 1989", "Membaca"]  
+// arr.splice(1,1, "Roman alamsyah elsharawy")
+// arr.splice(2,1, 'Provinsi Bandar Lampung')
+// arr.splice(4,2, 'Pria')
+// arr.splice(5,2, 'SMA International Metro')
+// // console.log(arr);
+
+
+// var date = arr[3];
+// var bulan = date.split(" ")
+// // console.log(bulan);
+
+// var dd = bulan[0];
+// var mm = bulan[1];
+// switch(mm) {
+//     case "01":   { mm = 'Januari'; break; }
+//     case "02":   { mm ='Februari'; break; }
+//     case "03":   { mm = 'Maret'; break; }
+//     case "04":   { mm = 'April'; break; }
+//     case "05":   { mm = 'Mei'; break; }
+//     case "06":   { mm = 'Juni'; break; }
+//     case "07":   { mm = 'Juli'; break; }
+//     case "08":   { mm = 'Agustus'; break; }
+//     case "09":   { mm = 'September'; break; }
+//     case "10":   { mm = 'Oktober'; break; }
+//     case "11":   { mm = 'November'; break; }
+//     case "12":   { mm = 'Desember'; break; }
+//     default:  { mm ='Januari'; }
+// }
+
+// var yyyy = bulan [2];
+// // console.log(dd, mm, yyyy)
+
+// var bulan = [dd, mm, yyyy]
+// bulan.sort(function(){ return dd > mm >yyyy });
+// // console.log(bulan.join("-"));
+
+
+// console.log(arr);
+// console.log(bulan[1]);
+// console.log(bulan);
+// console.log(bulan.join("-"));
+// console.log(arr[1]);
+// // ini yang di sial keluarannya deffault sebelum ngikutin intruksi direction gatau urang gapaham nerapinnya pake function
 
 
 
