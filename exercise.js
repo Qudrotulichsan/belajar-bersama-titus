@@ -289,16 +289,186 @@
 
 // exercise 11
 
-function balikKata(kata) {
+// function balikKata(kata) {
+//     let tampung = '';
 
-    var kalimat = "hello ican"
-    for(let i=0; i > kalimat.length; i--){
-        console.log(kalimat)
-    }
-}
+//     for(let i=kata.length-1; i >= 0; i--){
+//         tampung += kata[i];
+//     }
+//     return tampung
+//   }
   
-  // TEST CASES
-  console.log(balikKata('Hello World and Coders')); // sredoC dna dlroW olleH
+//   // TEST CASES
+//   console.log(balikKata('Hello World and Coders')); // sredoC dna dlroW olleH
+ 
+
+// exercise 13
+//   function xo(str) {
+//     let ngitungx = 0;
+//     let ngitungo = 0;
+
+//     for(let i=0; i <= str.length; i++){       
+//         if(str[i] == 'x'){
+//             ngitungx++;
+//         }else if(str[i] == 'o'){
+//             ngitungo++;
+//         }
+        
+//         }
+//         // console.log(ngitungx, ngitungo)
+  
+//         if (ngitungx == ngitungo){
+//             console.log('true')
+//         } else {
+//             console.log('false')
+//         }
+//         return str
+//     }
+
+    
+//   // TEST CASES
+//   console.log(xo('xoxoxo')); // true
+//   console.log(xo('oxooxo')); // false
+//   console.log(xo('oxo')); // false
+//   console.log(xo('xxxooo')); // true
+//   console.log(xo('xoxooxxo')); // truef
+
+
+// exercise 2 w3
+
+// Mengakses Nilai Dalam Array
+
+// function balikString(kata) {
+//     let tampung= '';
+
+//     for(let i=kata.length-1; i>=0; i--){
+//         tampung += kata[i];
+//     }
+//     return tampung 
+// }
+
+// console.log(balikString('Hello World'));
+
+// exercise 3 w3
+
+// Melakukan Looping Data Array
+
+// function dataHandling(arr) {
+//     for(i=0; i < arr.length; i++){
+//     let object = {
+//         NomorID: arr[i][0],
+//         NamaLengkap: arr[i][1],
+//         TTL: arr[i][2] + ', ' + arr[i][3],
+//         Hobi: arr[i][4]
+//                     }
+//         console.log(object)
+//     }
+// }
+        
+// var arr = [
+//     ["0001", "Roman Alamsyah", "Bandar Lampung", "21/05/1989", "Membaca"],
+//     ["0002", "Dika Sembiring", "Medan", "10/10/1992", "Bermain Gitar"],
+//     ["0003", "Winona", "Ambon", "25/12/1965", "Memasak"],
+//     ["0004", "Bintang Senjaya", "Martapura", "6/4/1970", "Berkebun"]
+// ]
+
+// console.log(dataHandling(arr));
+//cek
+
+// exercise 4 w3
+
+// function dataHandling2(arr){
+
+// }
+
+// var arr = ["0001", "Roman Alamsyah", "Bandar Lampung", "21 05 1989", "Membaca"]  
+// arr.splice(1,1, "Roman alamsyah elsharawy")
+// arr.splice(2,1, 'Provinsi Bandar Lampung')
+// arr.splice(4,2, 'Pria')
+// arr.splice(5,2, 'SMA International Metro')
+// // console.log(arr);
+
+
+// var date = arr[3];
+// var bulan = date.split(" ")
+// // console.log(bulan);
+
+// var dd = bulan[0];
+// var mm = bulan[1];
+// switch(mm) {
+//     case "01":   { mm = 'Januari'; break; }
+//     case "02":   { mm ='Februari'; break; }
+//     case "03":   { mm = 'Maret'; break; }
+//     case "04":   { mm = 'April'; break; }
+//     case "05":   { mm = 'Mei'; break; }
+//     case "06":   { mm = 'Juni'; break; }
+//     case "07":   { mm = 'Juli'; break; }
+//     case "08":   { mm = 'Agustus'; break; }
+//     case "09":   { mm = 'September'; break; }
+//     case "10":   { mm = 'Oktober'; break; }
+//     case "11":   { mm = 'November'; break; }
+//     case "12":   { mm = 'Desember'; break; }
+//     default:  { mm ='Januari'; }
+// }
+
+// var yyyy = bulan [2];
+// // console.log(dd, mm, yyyy)
+
+// var bulan = [dd, mm, yyyy]
+// bulan.sort(function(){ return dd > mm >yyyy });
+// // console.log(bulan.join("-"));
+
+
+// console.log(arr);
+// console.log(bulan[1]);
+// console.log(bulan);
+// console.log(bulan.join("-"));
+// console.log(arr[1]);
+// // ini yang di sial keluarannya deffault sebelum ngikutin intruksi direction gatau urang gapaham nerapinnya pake function
+
+
+
+
+
+
+
+
+
+
+
+
+// SAMPINGAN
+
+// let a = 0
+// let b = 10
+
+// while (a < 10){
+//     a++;
+// if (a %3 == 0){
+//     console.log(a + ' - Bilangan Kelipatan 3');
+// } else if (a %2 == 0){
+//     console.log(a + ' - Bilangan Genap')
+// } else{
+//     console.log(a + ' - Bilangan Ganjil')
+// }
+// }
+
+
+// for(let i=1; i <= 10; i++){
+//    if (i %3 == 0  ){
+//     console.log(i + ' - Kelipatan 3')
+   
+//     } else if (i %2 == 0){
+//         console.log(i + ' - Genap')
+//     } else {
+//         console.log(i + " - Ganjil");
+//     }
+// }
+
+
+
+// TEST CASES
+//   console.log(balikKata('Hello World and Coders')); // sredoC dna dlroW olleH
 //   console.log(balikKata('John Doe')); // eoD nhoJ
 //   console.log(balikKata('I am a bookworm')); // mrowkoob a ma I
 //   console.log(balikKata('Coding is my hobby')); // ybboh ym si gnidoC
