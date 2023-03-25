@@ -289,16 +289,104 @@
 
 // exercise 11
 
-function balikKata(kata) {
+// function balikKata(kata) {
+//     let tampung = '';
 
-    var kalimat = "hello ican"
-    for(let i=0; i > kalimat.length; i--){
-        console.log(kalimat)
-    }
-}
+//     for(let i=kata.length-1; i >= 0; i--){
+//         tampung += kata[i];
+//     }
+//     return tampung
+//   }
   
-  // TEST CASES
-  console.log(balikKata('Hello World and Coders')); // sredoC dna dlroW olleH
+//   // TEST CASES
+//   console.log(balikKata('Hello World and Coders')); // sredoC dna dlroW olleH
+ 
+
+// exercise 2 w3
+
+// Mengakses Nilai Dalam Array
+
+// function balikString(kata) {
+//     let tampung= '';
+
+//     for(let i=kata.length-1; i>=0; i--){
+//         tampung += kata[i];
+//     }
+//     return tampung 
+// }
+
+// console.log(balikString('Hello World'));
+
+// exercise 3 w3
+
+// Melakukan Looping Data Array
+
+// function dataHandling(arr) {
+//     for(i=0; i < arr.length; i++){
+//     let object = {
+//         NomorID: arr[i][0],
+//         NamaLengkap: arr[i][1],
+//         TTL: arr[i][2] + ', ' + arr[i][3],
+//         Hobi: arr[i][4]
+//                     }
+//         console.log(object)
+//     }
+// }
+        
+// var arr = [
+//     ["0001", "Roman Alamsyah", "Bandar Lampung", "21/05/1989", "Membaca"],
+//     ["0002", "Dika Sembiring", "Medan", "10/10/1992", "Bermain Gitar"],
+//     ["0003", "Winona", "Ambon", "25/12/1965", "Memasak"],
+//     ["0004", "Bintang Senjaya", "Martapura", "6/4/1970", "Berkebun"]
+// ]
+
+// console.log(dataHandling(arr));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// SAMPINGAN
+
+// let a = 0
+// let b = 10
+
+// while (a < 10){
+//     a++;
+// if (a %3 == 0){
+//     console.log(a + ' - Bilangan Kelipatan 3');
+// } else if (a %2 == 0){
+//     console.log(a + ' - Bilangan Genap')
+// } else{
+//     console.log(a + ' - Bilangan Ganjil')
+// }
+// }
+
+
+// for(let i=1; i <= 10; i++){
+//    if (i %3 == 0  ){
+//     console.log(i + ' - Kelipatan 3')
+   
+//     } else if (i %2 == 0){
+//         console.log(i + ' - Genap')
+//     } else {
+//         console.log(i + " - Ganjil");
+//     }
+// }
+
+
+
+// TEST CASES
+//   console.log(balikKata('Hello World and Coders')); // sredoC dna dlroW olleH
 //   console.log(balikKata('John Doe')); // eoD nhoJ
 //   console.log(balikKata('I am a bookworm')); // mrowkoob a ma I
 //   console.log(balikKata('Coding is my hobby')); // ybboh ym si gnidoC
